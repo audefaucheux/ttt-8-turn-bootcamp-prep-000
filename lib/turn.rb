@@ -35,9 +35,5 @@ end
 
 # turn
 def turn(board)
-##  until valid_move?(board, index) == false
-    puts "Please enter 1-9"
-##  else
-##    puts "${index}"
-##  end
+  puts "Please enter 1-9:"    
 end
