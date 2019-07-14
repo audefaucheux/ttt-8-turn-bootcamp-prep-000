@@ -8,7 +8,10 @@ display_board(board)
 
 turn(board)
 input = gets.strip
-valid_move?(board,index)
 index = input_to_index(input)
-move(board,index)
-display_board(board)
+
+puts index
+
+#valid_move?(board,index)
+#move(board,index)
+#display_board(board)
