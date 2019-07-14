@@ -36,7 +36,7 @@ end
 # turn
 def turn(board)
 input_check = false
-  until imput_check == false
+  until input_check == false
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
