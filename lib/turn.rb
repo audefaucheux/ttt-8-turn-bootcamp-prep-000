@@ -35,7 +35,7 @@ end
 
 # turn
 def turn(board)
-input_check = false
+input_check = true
   until input_check == false do
     puts "Please enter 1-9:"
     input = gets.strip
