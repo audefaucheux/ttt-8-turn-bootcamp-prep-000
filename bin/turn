@@ -14,7 +14,7 @@ if valid_move?(board,index) == true
   true
 end
 
-put valid_move?(board,index)
+puts valid_move?(board,index)
 
 #move(board,index)
 #display_board(board)
